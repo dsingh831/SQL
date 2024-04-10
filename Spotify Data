@@ -62,3 +62,10 @@ SELECT track_name AS song
 , popularity
 FROM spotifydata LIMIT 10;
 
+##List of Songs with Popularity Between 85-90
+
+SELECT track_name as songs
+, popularity
+FROM Spotifydata
+WHERE popularity BETWEEN 85 AND 90
+ORDER BY popularity;
